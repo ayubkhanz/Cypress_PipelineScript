@@ -1,4 +1,4 @@
-class homeSaucePage{
+class homeSaucePageXpath{
 
     elements = {
         usernameInput: () => cy.xpath(`//input[@data-test='username']`),
@@ -22,4 +22,4 @@ class homeSaucePage{
 
 }
 
-module.exports = new homeSaucePage();
+module.exports = new homeSaucePageXpath();
